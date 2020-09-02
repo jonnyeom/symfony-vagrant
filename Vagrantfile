@@ -26,7 +26,8 @@ Vagrant.configure(2) do |config|
   config.vm.network "private_network", ip: "192.168.33.10"
 
   # Domain on which our application will respond later on
-  config.vm.hostname  = "symfony-project.test"
+  config.vm.define "symfony-project"
+  config.vm.hostname = "symfony-project.test"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
