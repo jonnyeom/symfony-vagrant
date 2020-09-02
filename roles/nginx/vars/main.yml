@@ -1,0 +1,5 @@
+---
+server_name: "{{ host_server_name|default('digital-access.test') }}"
+
+php_packages:
+  - php-zip
