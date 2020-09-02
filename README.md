@@ -11,4 +11,5 @@ Simple and sweet ansible provisioned vagrant environment for symfony.
 * Redis
 
 ## Configuring
-* All ansible role variables can be changed in the `provisioning/vars/vars.yml` file.
+* Ansible role variables can be changed in the `provisioning/vars/vars.yml` file.
+* Vagrant things in the `Vagrantfile`.
