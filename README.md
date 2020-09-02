@@ -1,11 +1,14 @@
-# Ansible provisioning
+## Symfony Vagrant.
 
-Adding and Updating Galaxy roles
-From time to time, third party roles need to be added or updated to enable new functionality or fix bugs. 
-To update a role (e.g. geerlingguy.apache), find the role's version setting inside requirements.yml, 
-bump the version to the required or latest version of the role, then run the following command in the 
-same directory as this README file:
+Simple and sweet ansible provisioned vagrant environment for symfony. 
 
-$ ansible-galaxy install -r requirements.yml --force
+## Features (default)
+* Ubuntu 18.04
+* NGINX web server
+* MYSQL database
+* PHP 7.4
+* Xdebug
+* Redis
 
-Then commit the updated requirements.yml file and the new and updated files within the roles directory.
+## Configuring
+* All ansible role variables can be changed in the `provisioning/vars/vars.yml` file.
