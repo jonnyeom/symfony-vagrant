@@ -2,3 +2,6 @@
 .idea/
 .project/
 .bundle/
+
+# Vagrant files.
+.vagrant/
